@@ -9,7 +9,10 @@ export function Navbar() {
           <Link to="./home">Home</Link>
         </li>
         <li>
-          <Link to="./source">Sources</Link>
+          <Link to="./source">Info</Link>
+        </li>
+        <li>
+          <Link to="./graphic">Graphic</Link>
         </li>
       </ul>
     </nav>

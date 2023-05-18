@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <div className={"container"}>
       <header className="App-header">
-        <img src={logo} alt="Logo" className={"logo"} />
+        <img src={logo} alt="Logo" className={"App-Logo"} />
         <h1 className={"title"}>Complete Streets</h1>
       </header>
       <main className={"flexContainer"}>
@@ -35,9 +35,17 @@ export const Home = () => {
           <h2>What Holds Us Back?</h2>
           <p>The fact of funding issues, lack of contact within the City Government, & issues with action.</p>
         </section>
+        <section className={"flexItem"}>
+          <h2>Our mission</h2>
+          <p>Our mission is to study road safety, learn what it means to have a pedestrian safe road, and create a safe space for both the driver and the pedstrain.</p>
+        </section>
+        <section className={"flexItem"}>
+          <h2>Credit</h2>
+          <p>Credit goes to Nate Langel for the spearhead of this initiative, And any community members we've contacted.</p>
+        </section>
       </main>
       <footer className={"footer"}>
-        <p>&copy; 2023 Complete Streets</p>
+        &copy; 2023 Complete Streets
       </footer>
     </div>
   );

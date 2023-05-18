@@ -1,7 +1,8 @@
 import './App.css';
 import { Home } from "./pages/home"
-import { Source } from "./pages/source"; // Check if this path and component name are correct
+import { Source } from "./pages/source";
 import { Navbar } from "./navbar";
+import { Graphic } from "./pages/graphic";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -9,11 +10,13 @@ const App = () => {
   return (
 
     <Router>
-      <Navbar />
-      <Routes>
-        
+        <section className={"container_nav"}>
+        <Navbar />
+        </section>
+      <Routes> 
         <Route path="/home" element={<Home />} />
         <Route path="/source" element={<Source />} />
+        <Route path="/graphic" element={<Graphic />} />
       </Routes>
     </Router>
   );

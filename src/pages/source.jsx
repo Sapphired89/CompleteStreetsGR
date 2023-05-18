@@ -6,8 +6,8 @@ export const Source = () => {
   return (
     <div className={"container"}>
       <header className="App-header">
-        <img src={logo} alt="Logo" className={"logo"} />
-        <h1 className={"title"}>Sources</h1>
+        <img src={logo} alt="Logo" className={"App-Logo"} />
+        <h1 className={"title"}>Info</h1>
       </header>
       <main className={"flexContainer"}>
         <section className={"flexItem"}>
@@ -23,9 +23,13 @@ export const Source = () => {
           <h2>Any Extra Info.</h2>
           <p>-Add on-</p>
         </section>
+        <section className={"flexItem"}>
+          <h2>Any Questions, or want to become a community partner?</h2>
+          <p>Contact- langeln@students.grps.org Or helakjack@gmail.com</p>
+        </section>
       </main>
       <footer className={"footer"}>
-        <p> 2023 Sapphire Helak</p>
+        2023 Sapphire Helak
       </footer>
     </div>
   );
