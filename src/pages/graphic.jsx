@@ -3,6 +3,7 @@ import '../App.css'
 import Age from '../pages/InfoGraphics/Age.png'
 import Year from '../pages/InfoGraphics/Year.png'
 import Fatal from '../pages/InfoGraphics/Fatal.png'
+import Local from '../pages/InfoGraphics/Local.png'
 
 export const Graphic = () => {
     return (
@@ -23,6 +24,13 @@ export const Graphic = () => {
                     <h2>Car crashes</h2>
                     <img src={Fatal} alt="Fatal" style={{ maxWidth: '100%', height: 'auto' }} />
                 </div>
+                <div className={"flexItem"}>
+                    <h2>Local data from downtown</h2>
+                    <img src={Local} alt="Local" style={{ maxWidth: '100%', height: 'auto' }} />
+                </div>
+                <footer className={"footer"}>
+                    Sources: NSC.org, michigan.gov
+                </footer>
             </main>
         </div>
     );
