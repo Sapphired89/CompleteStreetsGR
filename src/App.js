@@ -4,6 +4,7 @@ import Navbar from './navbar';
 import Home from './pages/home';
 import Source from './pages/source';
 import Graphic from './pages/graphic';
+import Form from './pages/form';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/source" element={<Source />} />
         <Route path="/graphic" element={<Graphic />} />
+        <Route path="/form" element={<Form />} />
         <Route path="/" element={<Navigate to="/home" replace />} />
       </Routes>
     </Router>

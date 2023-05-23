@@ -1,10 +1,11 @@
 import React, { lazy, Suspense } from 'react';
 import { css } from '@emotion/react';
 import { ClipLoader } from 'react-spinners';
+import './form/Form.css';
 
-const LazyHeader = lazy(() => import('./source/header'));
-const LazyContent = lazy(() => import('./source/content'));
-const LazyFooter = lazy(() => import('./source/footer'));
+const LazyHeader = lazy(() => import('./form/header'));
+const LazyContent = lazy(() => import('./form/content'));
+const LazyFooter = lazy(() => import('./form/footer'));
 
 const override = css`
   display: flex;
@@ -13,7 +14,7 @@ const override = css`
   height: 100vh;
 `;
 
-const Source = () => {
+const Form = () => {
   return (
     <div className="container">
       <Suspense fallback={<ClipLoader css={override} size={50} color={'#123abc'} />}>
@@ -29,4 +30,5 @@ const Source = () => {
   );
 };
 
-export default Source;
+export default Form;
+
