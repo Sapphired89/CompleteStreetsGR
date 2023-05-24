@@ -10,9 +10,6 @@ export function Navbar() {
           <Link to="/home">Home</Link>
         </li>
         <li>
-          <Link to="/info" className="link">Info</Link>
-        </li>
-        <li>
         <Link to="/graphic" className="link">Graphic</Link>
         </li>
         <li>
