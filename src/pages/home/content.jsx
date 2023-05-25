@@ -37,7 +37,6 @@ const Content = () => {
           <h2>Credit</h2>
           <p>Credit goes to Nate Langel for the spearhead of this initiative, And any community members we've contacted.</p>
         </section>
-      {/* Add other sections here */}
     </main>
   );
 };

@@ -19,10 +19,10 @@ const Home = () => {
       <Suspense fallback={<ClipLoader css={override} size={50} color={'#123abc'} />}>
         <LazyHeader />
       </Suspense>
-      <Suspense fallback={<ClipLoader css={override} size={50} color={'#123abc'} />}>
+      <Suspense>
         <LazyContent />
       </Suspense>
-      <Suspense fallback={<ClipLoader css={override} size={50} color={'#123abc'} />}>
+      <Suspense>
         <LazyFooter />
       </Suspense>
     </div>
