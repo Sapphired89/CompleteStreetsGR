@@ -3,8 +3,8 @@ import './Form.css'
 
 const Footer = () => {
   return (
-    <footer className={"footer"}>
-    2023 Sapphire Helak
+    <footer class="footer" title="2023 Sapphire Helak">
+   2023 Sapphire Helak
   </footer>
   );
 };

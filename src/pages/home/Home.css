@@ -41,7 +41,7 @@
     border-radius: 20px;
     box-shadow: 5 5 10px black;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    background: linear-gradient(135deg, #717171, #303030);
+    background: linear-gradient(135deg, #303030, #717171);
     border: 2px solid #e2e91c;
     
   }
